@@ -1,25 +1,37 @@
+@font-face {
+    font-family: game ;
+    src: url(GAME_glm.ttf)
+    format(ttf);
+}
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: bisque;
+    background-attachment: fixed;
 }
 img{
     text-align: center;
 }
 body {
-    background-color: blanchedalmond;
+    background-image: url(21015287-sombrio-neon-hexagono-jogos-fundo-vetor.jpg);
+    background-size: 100%;
 }
-
+h1{
+    font-size: 50px;
+    font-family: game
+}
 ol {
- border: 2px solid;
+    border-top: 2px solid;
+    
     margin-right: 200px;
     margin-left: 200px;
 }
 
 li {
     margin: 4px;
+    text-align: left;
 }
 
 h3 {
@@ -71,4 +83,7 @@ p {
 
 .j img {
     height: 300px;
+}
+nav{
+    border: 10px solid;
 }
