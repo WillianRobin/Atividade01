@@ -8,7 +8,7 @@
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    color: bisque;
+    color: #13B3F2;
     background-attachment: fixed;
 }
 img{
@@ -84,6 +84,7 @@ p {
 .j img {
     height: 300px;
 }
-nav{
-    border: 10px solid;
+button{
+    background-color: black;
+    border: red;
 }

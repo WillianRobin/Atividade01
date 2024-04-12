@@ -1,0 +1,30 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #0511F2;
+    margin: 0;
+}
+
+body {
+    background-image: url(fundo2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.quadrado {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.quadrado2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+img {
+    width: 200px;
+}
