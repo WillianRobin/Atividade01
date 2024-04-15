@@ -1,0 +1,43 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url(af93588146ad215861756074598f62ee.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+}
+
+footer {
+    background-color: #ffffff;
+
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+}
+
+figcaption {
+    color: white;
+}
+
+img {
+    height: 300px;
+    border: 3px solid;
+}
+
+p {
+    margin-right: 200px;
+    margin-left: 200px;
+    color: white;
+    text-align: justify;
+}

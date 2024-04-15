@@ -3,6 +3,7 @@
     text-align: center;
     color: #0511F2;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,19 +13,23 @@ body {
     background-attachment: fixed;
 }
 
-.quadrado {
-    margin: 0;
-    width: 200px;
-    height: 200px;
-    float: left;
+footer {
+    background-color: #0511F2;
+
 }
 
-.quadrado2 {
-    width: 200px;
-    height: 200px;
-    float: right;
+.footer {
+    color: black;
 }
 
 img {
-    width: 200px;
+    height: 300px;
+    border: 3px solid;
+}
+
+p {
+    margin-right: 200px;
+    margin-left: 200px;
+
+    text-align: justify;
 }

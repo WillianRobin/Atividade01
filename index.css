@@ -1,30 +1,36 @@
-@font-face {
-    font-family: game ;
-    src: url(GAME_glm.ttf)
-    format(ttf);
-}
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #13B3F2;
+    color: #0059ff;
     background-attachment: fixed;
 }
-img{
+
+img {
     text-align: center;
 }
+
 body {
     background-image: url(21015287-sombrio-neon-hexagono-jogos-fundo-vetor.jpg);
     background-size: 100%;
 }
-h1{
-    font-size: 50px;
-    font-family: game
+
+.forma {
+    background-color: #ff000060;
+    margin: 0;
+    padding: 0;
+    float: none;
 }
+
+h1 {
+    font-size: 50px;
+    color: rgb(2, 2, 49);
+    margin: 0;
+    padding: 0;
+}
+
 ol {
     border-top: 2px solid;
-    
+
     margin-right: 200px;
     margin-left: 200px;
 }
@@ -37,54 +43,41 @@ li {
 h3 {
     margin: 10px;
 }
-div{
+
+div {
     text-align: center;
 }
+
 p {
     text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 
-.a img {
+img {
     height: 300px;
 }
 
-.b img {
-    height: 300px;
+button {
+    background-color: rgba(44, 0, 0, 0.349);
+    border: rgba(115, 117, 255, 0.658) solid;
 }
 
-.c img {
-    height: 300px;
+.a1 {
+    float: right;
+    margin-right: 100px;
 }
 
-.d img {
-    height: 300px;
+.a2 {
+    float: left;
+    margin-left: 100px;
 }
 
-.e img {
-    height: 300px;
+a {
+    text-decoration: none;
 }
 
-.f img {
-    height: 300px;
-}
-
-.g img {
-    height: 300px;
-}
-
-.h img {
-    height: 300px;
-}
-
-.i {
-    height: 300px;
-}
-
-.j img {
-    height: 300px;
-}
-button{
-    background-color: black;
-    border: red;
+.footer {
+    text-align: center;
 }
